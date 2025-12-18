@@ -184,7 +184,7 @@ export default function DatabaseArchitecture() {
     }
   };
 
-  const FieldBadge = ({ field }) => (
+  const FieldBadge = ({ field }: {field:any}) => (
     <div className="mb-3 p-3 bg-slate-700 rounded border border-slate-600">
       <div className="flex items-center gap-2 mb-1 flex-wrap">
         <code className="text-sm font-mono font-bold text-cyan-300">{field.name}</code>
